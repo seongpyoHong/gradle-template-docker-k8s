@@ -1,0 +1,5 @@
+//Root Project Name
+rootProject.name = 'gradle-template'
+include 'sample-admin'
+include 'sample-api'
+include 'sample-common'
