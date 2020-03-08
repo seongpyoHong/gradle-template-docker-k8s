@@ -1,0 +1,49 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    expose: "true"
+    app: sample-admin
+  name: sample-admin
+spec:
+  ports:
+    - name: http
+      port: 8080
+      protocol: TCP
+      targetPort: 8080
+  selector:
+    app: sample-admin
+  type: LoadBalancer
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    expose: "true"
+    app: sample-api
+  name: sample-api
+spec:
+  ports:
+    - name: http
+      port: 8080
+      protocol: TCP
+      targetPort: 8080
+  selector:
+    app: sample-api
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    expose: "true"
+    app: sample-common
+  name: sample-common
+spec:
+  ports:
+    - name: http
+      port: 8080
+      protocol: TCP
+      targetPort: 8080
+  selector:
+    app: sample-common
