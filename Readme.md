@@ -5,12 +5,15 @@ docker image build : jib
 https://github.com/GoogleContainerTools/jib/tree/master/jib-gradle-plugin
 
 k8s deploy : 
-todo
+TODO
+
+Setting for GKE with Terraform :
+TODO
+
 #### build docker image
 ```$xslt
 ./grdlew jib
 ```
 
 #### deploy to k8s
-todo
-
+TODO
