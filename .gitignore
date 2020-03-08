@@ -23,3 +23,7 @@ out/
 
  build/
  */build/
+
+terraform/.terraform/
+terraform/terraform.tfstat*
+terraform/variable*
