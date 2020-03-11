@@ -12,8 +12,13 @@ TODO
 
 #### build docker image
 ```$xslt
-./grdlew jib
+> ./grdlew jib
 ```
 
+#### Create GKE Cluster
+```
+> terraform plan
+> terraform apply
+```
 #### deploy to k8s
 TODO
