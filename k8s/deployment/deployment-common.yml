@@ -19,7 +19,7 @@ spec:
         - name: gcr-json-key
       containers:
         - name : sample-common
-          image: asia.gcr.io/sphong-kuber/sample-common:latest
+          image: asia.gcr.io/sphong-kuber/sample-common
           imagePullPolicy: Always
           livenessProbe:
             failureThreshold: 3

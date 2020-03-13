@@ -65,7 +65,6 @@ subprojects {
     jib {
         to {
             image = "${gcr}/${projectName}/" + "${bootJar.baseName}:${bootJar.version}"
-            tags = ['latest']
         }
     }
 
